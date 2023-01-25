@@ -10,7 +10,7 @@ namespace ConsoleApp2
             Console.WriteLine("Введите a");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите b");
-            b = Convert.ToDouble(Console.ReadLine());
+            b = Convert.ToDouble(Console.ReadLine()); //лишняя строка
             Console.WriteLine("Введите c");
             c = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите d");
