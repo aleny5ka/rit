@@ -12,7 +12,7 @@ namespace ConsoleApp2
             Console.WriteLine("Введите b");
             b = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите c");
-            c = Convert.ToDouble(Console.ReadLine());
+            c = Convert.ToDouble(Console.ReadLine()); //лишнее
             Console.WriteLine("Введите d");
             d = Convert.ToDouble(Console.ReadLine());
             sum = Math.Sqrt(Math.Pow(a - b, 2));
